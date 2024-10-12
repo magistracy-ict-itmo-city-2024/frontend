@@ -1,0 +1,14 @@
+.reports {
+    /* TODO fix magic number */
+    --footer-height: calc((var(--mantine-spacing-md) * 2) + 1.3rem);
+    min-height: calc(100vh - var(--app-shell-header-height) - var(--footer-height));
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        /* TODO fix magic number */
+        --footer-height: calc(
+            (var(--mantine-spacing-md) * 2) + var(--mantine-spacing-lg) + var(--mantine-spacing-sm) +
+                (1.31rem * 2)
+        );
+        min-height: calc(100vh - var(--app-shell-header-height) - var(--footer-height));
+    }
+}
