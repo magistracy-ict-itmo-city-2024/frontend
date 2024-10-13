@@ -1,5 +1,5 @@
 import { categoryIdObj } from "../categories";
-import { statusObj } from "../pages";
+import { statusObj } from "../scenes";
 import { unixToDate } from "./unixToDate";
 
 export const mapReports = (reports) => {

@@ -7,7 +7,7 @@ export function Footer() {
     return (
         <div className={classes.footer}>
             <div className={classes.inner}>
-                <Text size="sm">© 2023 city-24</Text>
+                <Text size="sm">© 2024 city-24</Text>
                 <Anchor
                     className={classes.link}
                     href="#"
